@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tutorat.CheckoutActivity">
+
+
+    <include
+        layout="@layout/toolbar"></include>
+
+    <com.tutorat.CustomTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#f3f3f3"
+        android:elevation="3dp"
+        app:tabIndicatorColor="@color/pink"
+        app:tabMode="scrollable"
+        app:tabTextAppearance="@style/CustomTextStyle"
+        app:tabSelectedTextColor="@color/pink"
+        app:tabTextColor="@color/text" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/tab_layout"
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -26,10 +26,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/back"
                 android:padding="10dp"
-                android:layout_gravity="center"
-
-                />
-
+                android:layout_gravity="center" />
 
             <customfonts.MyTextView
                 android:layout_width="wrap_content"
@@ -58,14 +55,11 @@
     android:orientation="vertical"
     android:layout_alignParentBottom="true">
 
-
-
-
     <customfonts.MyEditText
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:hint="Email"
         android:layout_marginTop="20dp"
         android:textSize="16dp"
         android:textColorHint="#ADCCE2"
@@ -76,7 +70,6 @@
         android:padding="16dp"
         android:drawableRight="@drawable/user"
         android:layout_marginRight="35dp"/>
-
 
     <View
         android:layout_width="match_parent"
@@ -108,9 +101,6 @@
         android:layout_marginBottom="10dp"
         android:background="#ADCCE2"/>
 
-
-
-
     <customfonts.MyTextView
             android:id="@+id/signin"
             android:layout_width="match_parent"
@@ -125,18 +115,9 @@
             android:padding="16dp"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="28dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="32dp" />
 
-
-        />
-
-
-
-
-
-
-</LinearLayout>
-
+    </LinearLayout>
 
 </RelativeLayout>
 </FrameLayout>

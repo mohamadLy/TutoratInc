@@ -5,8 +5,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/bgimage">
 
-
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,16 +18,12 @@
             android:layout_marginLeft="30dp">
 
         <ImageView
-
             android:id="@+id/signupback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/back"
             android:padding="10dp"
-            android:layout_gravity="center"
-
-            />
-
+            android:layout_gravity="center" />
 
         <customfonts.MyTextView
             android:layout_width="wrap_content"
@@ -39,8 +33,7 @@
             android:textColor="#ADCCE2"
             android:layout_marginLeft="16dp"
             android:layout_gravity="center"
-            android:gravity="center"
-            />
+            android:gravity="center" />
 
         </LinearLayout>
 
@@ -72,14 +65,12 @@
                 android:padding="16dp"
                 android:layout_marginRight="35dp"/>
 
-
             <View
                 android:layout_width="match_parent"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
                 android:layout_height="1dp"
                 android:background="#ADCCE2" />
-
 
             <customfonts.MyEditText
                 android:textSize="16dp"
@@ -96,7 +87,6 @@
                 android:padding="16dp"
                 android:layout_marginRight="35dp"/>
 
-
             <View
                 android:layout_width="match_parent"
                 android:layout_marginLeft="40dp"
@@ -104,16 +94,12 @@
                 android:layout_height="1dp"
                 android:background="#ADCCE2" />
 
-
-
-
-
             <customfonts.MyEditText
                 android:textSize="16dp"
-                android:id="@+id/username"
+                android:id="@+id/school"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Username"
+                android:hint="School"
 
                 android:textColorHint="#ADCCE2"
                 android:textColor="#ADCCE2"
@@ -121,9 +107,7 @@
                 android:inputType="text"
                 android:background="#0000"
                 android:padding="16dp"
-
                 android:layout_marginRight="35dp"/>
-
 
             <View
                 android:layout_width="match_parent"
@@ -155,9 +139,6 @@
                 android:layout_marginBottom="10dp"
                 android:background="#ADCCE2"/>
 
-
-
-
             <customfonts.MyTextView
                 android:id="@+id/signin"
                 android:layout_width="match_parent"
@@ -175,13 +156,6 @@
                 android:layout_marginTop="32dp"
                 />
 
-
-
-
-
-
         </LinearLayout>
-
-
     </RelativeLayout>
 </FrameLayout>
